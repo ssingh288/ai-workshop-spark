@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,12 +62,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom color palette inspired by nodcoding.com
+				workshop: {
+					'pink': '#F4C2C2',
+					'yellow': '#FFE066',
+					'lavender': '#D4BBFF',
+					'sky': '#87CEEB',
+					'mint': '#B8E6B8',
+					'peach': '#FFCAB0',
+					'sage': '#A8C686'
 				}
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			fontFamily: {
+				'sans': ['Inter', 'sans-serif'],
+				'display': ['Manrope', 'sans-serif'],
 			},
 			keyframes: {
 				'accordion-down': {
@@ -84,11 +99,33 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-20px)' }
+				},
+				'blob': {
+					'0%': { transform: 'translate(0px, 0px) scale(1)' },
+					'33%': { transform: 'translate(30px, -50px) scale(1.1)' },
+					'66%': { transform: 'translate(-20px, 20px) scale(0.9)' },
+					'100%': { transform: 'translate(0px, 0px) scale(1)' }
+				},
+				'slide-up': {
+					'0%': { opacity: '0', transform: 'translateY(20px)' },
+					'100%': { opacity: '1', transform: 'translateY(0)' }
+				},
+				'pulse-glow': {
+					'0%, 100%': { boxShadow: '0 0 5px rgba(244, 194, 194, 0.5)' },
+					'50%': { boxShadow: '0 0 20px rgba(244, 194, 194, 0.8)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'blob': 'blob 7s infinite',
+				'slide-up': 'slide-up 0.6s ease-out',
+				'pulse-glow': 'pulse-glow 2s infinite'
 			}
 		}
 	},
