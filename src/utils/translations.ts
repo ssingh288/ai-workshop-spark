@@ -193,7 +193,8 @@ export const translations = {
       terms: "Terms of Service"
     },
     cta: {
-      apply: "Apply Now"
+      apply: "Apply Now",
+      reserve: "Reserve Your Seat"
     }
   },
   sv: {
@@ -389,7 +390,8 @@ export const translations = {
       terms: "Användarvillkor"
     },
     cta: {
-      apply: "Ansök Nu"
+      apply: "Ansök Nu",
+      reserve: "Reservera Din Plats"
     }
   }
 };
