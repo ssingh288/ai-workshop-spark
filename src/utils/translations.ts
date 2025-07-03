@@ -2,127 +2,152 @@
 export const translations = {
   en: {
     nav: {
-      whatYouLearn: "What You'll Learn",
-      agenda: "Agenda",
+      aboutCourse: "About Course",
+      curriculum: "Curriculum", 
+      instructor: "Instructor",
       faq: "FAQ"
     },
-    cta: {
-      reserve: "Reserve Your Seat"
-    },
     hero: {
-      subtitle: "Learn how to create AI-powered apps using Lovable, Cursor, and Supabase",
-      description: "Launch your AI product with zero setup in under 60 minutes.",
-      dateTime: "[Insert Your Event Date and Time]",
-      price: "99 SEK",
+      title: "AI-Powered Data Analytics Bootcamp",
+      subtitle: "Master SQL, Python, Tableau & AI Tools in 8 Intensive Weeks",
+      description: "Transform your career with hands-on training in data analysis, visualization, and AI-powered development tools. Limited to 10 students per batch.",
+      dateTime: "8 Weeks | Mon-Fri 7-9 PM",
+      price: "₹50,000",
       tools: {
-        lovable: "Build beautiful apps",
-        cursor: "Code smartly with AI",
-        supabase: "Scale your backend"
+        sql: "Master complex queries and database optimization",
+        python: "Learn data manipulation with pandas and analysis",
+        tableau: "Create stunning interactive dashboards",
+        ai: "Leverage Lovable, Cursor & Supabase for modern development"
       }
     },
     whatYouLearn: {
-      title: "What You'll Learn",
-      subtitle: "Master AI-powered development in just 60 minutes",
-      duration: "intensive workshop",
+      title: "What You'll Master",
+      subtitle: "Comprehensive curriculum designed to make you job-ready as an AI-powered data analyst",
+      duration: "intensive training",
       audience: [
         {
-          icon: "👨‍💻",
-          title: "Developers",
-          description: "Learn cutting-edge AI tools to accelerate your coding workflow"
+          icon: "📊",
+          title: "Data Analysis",
+          description: "SQL mastery, data cleaning, and statistical analysis techniques"
         },
         {
-          icon: "🎨",
-          title: "Designers",
-          description: "Build functional prototypes without deep coding knowledge"
+          icon: "🐍", 
+          title: "Python Programming",
+          description: "Pandas, NumPy, and data manipulation libraries"
         },
         {
-          icon: "🚀",
-          title: "Product Builders",
-          description: "Transform ideas into working products rapidly"
+          icon: "📈",
+          title: "Data Visualization", 
+          description: "Tableau dashboards and interactive visualizations"
         },
         {
-          icon: "🔧",
-          title: "No-coders",
-          description: "Create sophisticated apps using visual development tools"
+          icon: "🤖",
+          title: "AI Development",
+          description: "Modern tools like Lovable, Cursor, and Supabase"
         }
       ],
       learn: {
-        title: "You'll master:",
+        title: "Complete Learning Path",
         items: [
-          "Build beautiful apps with Lovable.dev",
-          "Code smartly using Cursor AI",
-          "Scale backend with Supabase",
-          "Deploy your AI product live"
+          "Advanced SQL queries and database design",
+          "Python for data analysis and automation", 
+          "Professional Tableau dashboard creation",
+          "AI-powered development workflow",
+          "Real-world project portfolio",
+          "Interview preparation and career guidance"
         ]
       }
     },
-    agenda: {
-      title: "Workshop Agenda",
-      subtitle: "A structured 60-minute journey into AI development",
+    curriculum: {
+      title: "8-Week Curriculum",
+      subtitle: "Monday to Friday, 7 PM - 9 PM (Online)",
       items: [
         {
-          time: "0-10\nmin",
-          title: "AI Tools Landscape",
-          description: "Overview of modern AI development tools and their capabilities",
-          icon: "🗺️",
-          tool: "Introduction"
+          week: "Week 1-2",
+          title: "SQL Fundamentals & Advanced Queries",
+          description: "Master database fundamentals, complex joins, subqueries, and optimization techniques",
+          icon: "🗃️",
+          topics: ["Database Design", "Complex Joins", "Query Optimization"]
         },
         {
-          time: "10-30\nmin",
-          title: "Frontend with Lovable",
-          description: "Build a stunning frontend using AI-powered visual development",
-          icon: "🎨",
-          tool: "Lovable.dev"
+          week: "Week 3-4", 
+          title: "Python for Data Analysis",
+          description: "Learn pandas, NumPy, and data manipulation techniques with real datasets",
+          icon: "🐍",
+          topics: ["Pandas", "NumPy", "Data Cleaning"]
         },
         {
-          time: "30-45\nmin",
-          title: "Backend Integration",
-          description: "Connect your app to a powerful backend with Supabase",
-          icon: "⚡",
-          tool: "Supabase"
+          week: "Week 5-6",
+          title: "Tableau & Data Visualization",
+          description: "Create interactive dashboards and compelling data stories",
+          icon: "📊",
+          topics: ["Dashboard Design", "Interactive Viz", "Storytelling"]
         },
         {
-          time: "45-60\nmin",
-          title: "AI Coding & Q&A",
-          description: "Advanced techniques with Cursor AI and open discussion",
-          icon: "🧠",
-          tool: "Cursor AI"
+          week: "Week 7-8",
+          title: "AI Development Tools",
+          description: "Modern development with Lovable, Cursor, Supabase, and deployment on Vercel",
+          icon: "🚀", 
+          topics: ["Lovable", "Cursor AI", "Supabase"]
         }
       ]
     },
+    instructor: {
+      title: "Meet Your Instructor",
+      name: "Sandeep Singh",
+      title_role: "Senior Data Analyst & AI Trainer",
+      experience: "10+ Years Industry Experience",
+      students: "100+ Students Trained",
+      locations: "Paris • Amsterdam • Barcelona",
+      bio: "Sandeep brings over a decade of hands-on experience in data analysis and has successfully trained more than 100 students across Europe. His expertise spans from traditional data analysis to cutting-edge AI-powered development tools.",
+      achievements: [
+        "10+ years in data analytics industry",
+        "Trained 100+ professionals across Europe", 
+        "Expert in SQL, Python, and Tableau",
+        "Specialized in AI-powered development tools"
+      ]
+    },
     registration: {
-      title: "Reserve Your Seat",
-      subtitle: "Join Swedish professionals learning AI development",
-      price: "99 SEK",
-      platform: "Live via Zoom",
-      date: "[Insert Your Event Date]",
-      time: "[Insert Your Event Time]",
-      discountPlaceholder: "Enter discount code (optional)",
-      cta: "Register & Pay Now",
-      note: "Secure payment via Stripe. You'll receive Zoom link after registration.",
+      title: "Apply for the Bootcamp",
+      subtitle: "Limited to 10 students per batch - Interview required for admission",
+      price: "₹50,000",
+      duration: "8 Weeks Program",
+      schedule: "Mon-Fri, 7-9 PM",
+      format: "Live Online Classes",
+      cta: "Apply Now - Interview Required",
+      note: "* All applicants must pass a screening interview",
       features: {
-        liveDemo: "Live Demo",
-        resources: "Code & Resources",
-        qa: "Q&A Support"
+        liveClasses: "Live Interactive Classes",
+        portfolio: "Build Real Projects", 
+        interview: "Interview Preparation"
+      },
+      requirements: {
+        title: "Prerequisites",
+        items: [
+          "Basic computer skills required",
+          "No prior coding experience needed",
+          "Commitment to attend all sessions",
+          "Interview clearing is mandatory"
+        ]
       }
     },
     testimonials: {
-      title: "What People Say",
+      title: "Student Success Stories",
       items: [
         {
-          icon: "🚀",
-          text: "Loved the format — super actionable!",
-          author: "AI Bootcamp Attendee"
+          text: "The curriculum was perfectly structured. I landed a data analyst role within 2 months of completing the bootcamp!",
+          author: "Priya Sharma, Data Analyst at TechCorp",
+          icon: "🎯"
         },
         {
-          icon: "💡",
-          text: "Finally understand how to use AI tools effectively",
-          author: "Frontend Developer"
+          text: "Sandeep's teaching style made complex SQL concepts so easy to understand. The hands-on projects were amazing!",
+          author: "Rahul Gupta, Business Intelligence Developer", 
+          icon: "💡"
         },
         {
-          icon: "⚡",
-          text: "Built my first AI app during the workshop",
-          author: "Product Manager"
+          text: "From zero coding knowledge to building my own data dashboards - this bootcamp changed my career trajectory completely.",
+          author: "Anjali Patel, Marketing Analyst",
+          icon: "🚀"
         }
       ]
     },
@@ -130,159 +155,195 @@ export const translations = {
       title: "Frequently Asked Questions",
       items: [
         {
-          question: "What do I need to know before attending?",
-          answer: "Basic understanding of web development is helpful but not required. We'll guide you through everything step by step."
+          question: "Do I need prior programming experience?",
+          answer: "No prior programming experience is required. We start from the basics and gradually build up to advanced concepts. However, basic computer literacy is expected."
         },
         {
-          question: "Will I get the code after the workshop?",
-          answer: "Yes! All participants receive access to the complete code repository, resources, and bonus materials."
+          question: "What is the interview process?",
+          answer: "The interview is a 30-minute conversation to assess your commitment, learning goals, and ensure the program is a good fit for you. It's not a technical assessment."
         },
         {
-          question: "Is this suitable for beginners?",
-          answer: "Absolutely! We designed this workshop for all skill levels. Our AI tools make development accessible to everyone."
+          question: "What if I miss a class?",
+          answer: "All sessions are recorded and available for review. However, consistent attendance is crucial for success, and more than 3 absences may affect your progress."
         },
         {
-          question: "What if I can't attend live?",
-          answer: "We'll send you a recording of the workshop plus all materials so you can learn at your own pace."
+          question: "Will I get job placement assistance?",
+          answer: "Yes, we provide interview preparation, resume review, and career guidance. While we don't guarantee job placement, our curriculum is designed to make you job-ready."
+        },
+        {
+          question: "What tools do I need?",
+          answer: "You'll need a computer with internet connection. All software tools (including Tableau) will be provided with educational licenses during the course."
+        },
+        {
+          question: "Is there a certificate upon completion?",
+          answer: "Yes, you'll receive a certificate of completion along with a portfolio of projects to showcase to potential employers."
         }
       ]
     },
     footer: {
-      description: "Master AI-powered development with industry experts.",
+      description: "Transform your career with AI-powered data analytics skills in just 8 weeks.",
       contact: {
-        title: "Contact",
-        email: "hello@buildwithai.se",
-        support: "Support available 24/7"
+        title: "Contact Info",
+        email: "hello@aianalyticsbootcamp.com",
+        support: "For admissions: +91-9876543210"
       },
       follow: "Follow Us",
-      copyright: "© 2024 Build with AI Workshop. All rights reserved.",
+      copyright: "© 2024 AI Analytics Bootcamp. All rights reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service"
+    },
+    cta: {
+      apply: "Apply Now"
     }
   },
   sv: {
     nav: {
-      whatYouLearn: "Vad Du Lär Dig",
-      agenda: "Agenda",
+      aboutCourse: "Om Kursen", 
+      curriculum: "Kursplan",
+      instructor: "Instruktör",
       faq: "FAQ"
     },
-    cta: {
-      reserve: "Reservera Din Plats"
-    },
     hero: {
-      subtitle: "Lär dig skapa AI-drivna appar med Lovable, Cursor och Supabase",
-      description: "Lansera din AI-produkt utan installation på under 60 minuter.",
-      dateTime: "[Sätt in ditt eventdatum och tid]",
-      price: "99 SEK",
+      title: "AI-Driven Dataanalys Bootcamp",
+      subtitle: "Behärska SQL, Python, Tableau & AI-verktyg på 8 intensiva veckor",
+      description: "Förändra din karriär med praktisk utbildning inom dataanalys, visualisering och AI-drivna utvecklingsverktyg. Begränsat till 10 studenter per grupp.",
+      dateTime: "8 Veckor | Mån-Fre 19-21",
+      price: "₹50,000",
       tools: {
-        lovable: "Bygg vackra appar",
-        cursor: "Koda smart med AI",
-        supabase: "Skala din backend"
+        sql: "Behärska komplexa frågor och databasoptimering",
+        python: "Lär dig datamanipulation med pandas och analys", 
+        tableau: "Skapa fantastiska interaktiva dashboards",
+        ai: "Utnyttja Lovable, Cursor & Supabase för modern utveckling"
       }
     },
     whatYouLearn: {
-      title: "Vad Du Lär Dig",
-      subtitle: "Bemästra AI-driven utveckling på bara 60 minuter",
-      duration: "intensiv workshop",
+      title: "Vad Du Kommer Att Behärska",
+      subtitle: "Omfattande kursplan designad för att göra dig jobbklar som AI-driven dataanalytiker",
+      duration: "intensiv träning",
       audience: [
         {
-          icon: "👨‍💻",
-          title: "Utvecklare",
-          description: "Lär dig banbrytande AI-verktyg för att accelerera ditt kodningsflöde"
+          icon: "📊",
+          title: "Dataanalys",
+          description: "SQL-mästerskap, datarengöring och statistiska analystekniker"
         },
         {
-          icon: "🎨",
-          title: "Designers",
-          description: "Bygg funktionella prototyper utan djup kodningskunskap"
+          icon: "🐍",
+          title: "Python-programmering", 
+          description: "Pandas, NumPy och datamanipulationsbibliotek"
         },
         {
-          icon: "🚀",
-          title: "Produktbyggare",
-          description: "Förvandla idéer till fungerande produkter snabbt"
+          icon: "📈",
+          title: "Datavisualisering",
+          description: "Tableau-dashboards och interaktiva visualiseringar"
         },
         {
-          icon: "🔧",
-          title: "No-coders",
-          description: "Skapa sofistikerade appar med visuella utvecklingsverktyg"
+          icon: "🤖",
+          title: "AI-utveckling",
+          description: "Moderna verktyg som Lovable, Cursor och Supabase"
         }
       ],
       learn: {
-        title: "Du kommer att behärska:",
+        title: "Komplett Lärväg",
         items: [
-          "Bygg vackra appar med Lovable.dev",
-          "Koda smart med Cursor AI",
-          "Skala backend med Supabase",
-          "Publicera din AI-produkt live"
+          "Avancerade SQL-frågor och databasdesign",
+          "Python för dataanalys och automatisering",
+          "Professionell Tableau dashboard-skapande", 
+          "AI-driven utvecklingsarbetsflöde",
+          "Verkligt projektportfölj",
+          "Intervjuförberedelse och karriärvägledning"
         ]
       }
     },
-    agenda: {
-      title: "Workshop Agenda",
-      subtitle: "En strukturerad 60-minuters resa in i AI-utveckling",
+    curriculum: {
+      title: "8-Veckors Kursplan",
+      subtitle: "Måndag till Fredag, 19-21 (Online)",
       items: [
         {
-          time: "0-10\nmin",
-          title: "AI-verktygslandskap",
-          description: "Översikt av moderna AI-utvecklingsverktyg och deras möjligheter",
-          icon: "🗺️",
-          tool: "Introduktion"
+          week: "Vecka 1-2",
+          title: "SQL Grunder & Avancerade Frågor",
+          description: "Behärska databasgrunder, komplexa joins, subfrågor och optimeringstekniker",
+          icon: "🗃️",
+          topics: ["Databasdesign", "Komplexa Joins", "Frågeoptimering"]
         },
         {
-          time: "10-30\nmin",
-          title: "Frontend med Lovable",
-          description: "Bygg en fantastisk frontend med AI-driven visuell utveckling",
-          icon: "🎨",
-          tool: "Lovable.dev"
+          week: "Vecka 3-4",
+          title: "Python för Dataanalys", 
+          description: "Lär dig pandas, NumPy och datamanipulationstekniker med verkliga dataset",
+          icon: "🐍",
+          topics: ["Pandas", "NumPy", "Datarengöring"]
         },
         {
-          time: "30-45\nmin",
-          title: "Backend Integration",
-          description: "Anslut din app till en kraftfull backend med Supabase",
-          icon: "⚡",
-          tool: "Supabase"
+          week: "Vecka 5-6",
+          title: "Tableau & Datavisualisering",
+          description: "Skapa interaktiva dashboards och övertygande databerättelser",
+          icon: "📊", 
+          topics: ["Dashboard Design", "Interaktiv Viz", "Berättande"]
         },
         {
-          time: "45-60\nmin",
-          title: "AI-kodning & Q&A",
-          description: "Avancerade tekniker med Cursor AI och öppen diskussion",
-          icon: "🧠",
-          tool: "Cursor AI"
+          week: "Vecka 7-8",
+          title: "AI Utvecklingsverktyg",
+          description: "Modern utveckling med Lovable, Cursor, Supabase och deployment på Vercel",
+          icon: "🚀",
+          topics: ["Lovable", "Cursor AI", "Supabase"]
         }
       ]
     },
+    instructor: {
+      title: "Träffa Din Instruktör",
+      name: "Sandeep Singh", 
+      title_role: "Senior Dataanalytiker & AI-tränare",
+      experience: "10+ Års Branschexpertis",
+      students: "100+ Studenter Tränade",
+      locations: "Paris • Amsterdam • Barcelona",
+      bio: "Sandeep har över ett decennium av praktisk erfarenhet inom dataanalys och har framgångsrikt tränat mer än 100 studenter över hela Europa. Hans expertis sträcker sig från traditionell dataanalys till banbrytande AI-drivna utvecklingsverktyg.",
+      achievements: [
+        "10+ år inom dataanalysbranschen",
+        "Tränat 100+ yrkesverksamma över hela Europa",
+        "Expert på SQL, Python och Tableau", 
+        "Specialiserad på AI-drivna utvecklingsverktyg"
+      ]
+    },
     registration: {
-      title: "Reservera Din Plats",
-      subtitle: "Gå med svenska proffs som lär sig AI-utveckling",
-      price: "99 SEK",
-      platform: "Live via Zoom",
-      date: "[Sätt in ditt eventdatum]",
-      time: "[Sätt in din eventtid]",
-      discountPlaceholder: "Ange rabattkod (valfritt)",
-      cta: "Registrera & Betala Nu",
-      note: "Säker betalning via Stripe. Du får Zoom-länk efter registrering.",
+      title: "Ansök till Bootcampen",
+      subtitle: "Begränsat till 10 studenter per grupp - Intervju krävs för antagning",
+      price: "₹50,000",
+      duration: "8 Veckors Program",
+      schedule: "Mån-Fre, 19-21",
+      format: "Live Online Klasser",
+      cta: "Ansök Nu - Intervju Krävs",
+      note: "* Alla sökande måste klara en intervju",
       features: {
-        liveDemo: "Live Demo",
-        resources: "Kod & Resurser",
-        qa: "Q&A Support"
+        liveClasses: "Live Interaktiva Klasser",
+        portfolio: "Bygg Riktiga Projekt",
+        interview: "Intervjuförberedelse"
+      },
+      requirements: {
+        title: "Förkunskapskrav",
+        items: [
+          "Grundläggande datorkunskaper krävs",
+          "Ingen tidigare kodningsexpertis behövs", 
+          "Engagemang att delta i alla sessioner",
+          "Att klara intervjun är obligatoriskt"
+        ]
       }
     },
     testimonials: {
-      title: "Vad Folk Säger",
+      title: "Studentframgångsberättelser",
       items: [
         {
-          icon: "🚀",
-          text: "Älskade formatet — super praktiskt!",
-          author: "AI Bootcamp Deltagare"
+          text: "Kursplanen var perfekt strukturerad. Jag fick en dataanalytikertjänst inom 2 månader efter att ha avslutat bootcampen!",
+          author: "Priya Sharma, Dataanalytiker på TechCorp",
+          icon: "🎯"
         },
         {
-          icon: "💡",
-          text: "Förstår äntligen hur man använder AI-verktyg effektivt",
-          author: "Frontend Utvecklare"
+          text: "Sandeeps undervisningsstil gjorde komplexa SQL-koncept så lätta att förstå. De praktiska projekten var fantastiska!",
+          author: "Rahul Gupta, Business Intelligence Developer",
+          icon: "💡"
         },
         {
-          icon: "⚡",
-          text: "Byggde min första AI-app under workshopen",
-          author: "Produktchef"
+          text: "Från noll kodningskunskap till att bygga mina egna datadashboards - denna bootcamp förändrade min karriärbana helt.",
+          author: "Anjali Patel, Marketing Analyst", 
+          icon: "🚀"
         }
       ]
     },
@@ -290,34 +351,45 @@ export const translations = {
       title: "Vanliga Frågor",
       items: [
         {
-          question: "Vad behöver jag kunna innan jag deltar?",
-          answer: "Grundläggande förståelse för webbutveckling är hjälpsamt men inte nödvändigt. Vi guidar dig genom allt steg för steg."
+          question: "Behöver jag tidigare programmeringserfarenhet?",
+          answer: "Ingen tidigare programmeringserfarenhet krävs. Vi börjar från grunderna och bygger gradvis upp till avancerade koncept. Dock förväntas grundläggande datorkunskaper."
         },
         {
-          question: "Får jag koden efter workshopen?",
-          answer: "Ja! Alla deltagare får tillgång till det kompletta kodförrådet, resurser och bonusmaterial."
+          question: "Vad är intervjuprocessen?",
+          answer: "Intervjun är ett 30-minuters samtal för att bedöma ditt engagemang, lärandemål och säkerställa att programmet passar dig. Det är inte en teknisk bedömning."
         },
         {
-          question: "Är detta lämpligt för nybörjare?",
-          answer: "Absolut! Vi designade denna workshop för alla färdighetsnivåer. Våra AI-verktyg gör utveckling tillgänglig för alla."
+          question: "Vad händer om jag missar en klass?",
+          answer: "Alla sessioner spelas in och är tillgängliga för granskning. Dock är konsekvent närvaro avgörande för framgång, och mer än 3 frånvaro kan påverka dina framsteg."
         },
         {
-          question: "Vad händer om jag inte kan delta live?",
-          answer: "Vi skickar dig en inspelning av workshopen plus allt material så du kan lära dig i din egen takt."
+          question: "Får jag hjälp med jobbplacering?",
+          answer: "Ja, vi tillhandahåller intervjuförberedelse, CV-granskning och karriärvägledning. Även om vi inte garanterar jobbplacering, är vår kursplan designad för att göra dig jobbklar."
+        },
+        {
+          question: "Vilka verktyg behöver jag?",
+          answer: "Du behöver en dator med internetanslutning. Alla mjukvaruverktyg (inklusive Tableau) kommer att tillhandahållas med utbildningslicenser under kursen."
+        },
+        {
+          question: "Finns det ett certifikat vid slutförande?",
+          answer: "Ja, du får ett slutförandecertifikat tillsammans med en portfölj av projekt att visa för potentiella arbetsgivare."
         }
       ]
     },
     footer: {
-      description: "Bemästra AI-driven utveckling med branschexperter.",
+      description: "Förändra din karriär med AI-drivna dataanalyskunskaper på bara 8 veckor.",
       contact: {
-        title: "Kontakt",
-        email: "hej@buildwithai.se",
-        support: "Support tillgänglig 24/7"
+        title: "Kontaktinfo",
+        email: "hello@aianalyticsbootcamp.com", 
+        support: "För antagning: +91-9876543210"
       },
       follow: "Följ Oss",
-      copyright: "© 2024 Build with AI Workshop. Alla rättigheter förbehållna.",
+      copyright: "© 2024 AI Analytics Bootcamp. Alla rättigheter förbehållna.",
       privacy: "Integritetspolicy",
       terms: "Användarvillkor"
+    },
+    cta: {
+      apply: "Ansök Nu"
     }
   }
 };

@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import WhatYouLearnSection from '../components/WhatYouLearnSection';
 import AgendaSection from '../components/AgendaSection';
+import InstructorSection from '../components/InstructorSection';
 import RegistrationSection from '../components/RegistrationSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import FAQSection from '../components/FAQSection';
@@ -18,6 +19,7 @@ const Index = () => {
       <HeroSection language={language} />
       <WhatYouLearnSection language={language} />
       <AgendaSection language={language} />
+      <InstructorSection language={language} />
       <RegistrationSection language={language} />
       <TestimonialsSection language={language} />
       <FAQSection language={language} />

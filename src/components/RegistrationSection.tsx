@@ -7,7 +7,6 @@ interface RegistrationSectionProps {
 }
 
 const RegistrationSection = ({ language }: RegistrationSectionProps) => {
-  const [discountCode, setDiscountCode] = useState('');
   const t = translations[language];
 
   return (
@@ -16,57 +15,66 @@ const RegistrationSection = ({ language }: RegistrationSectionProps) => {
       <div className="absolute bottom-0 right-0 w-80 h-80 bg-workshop-pink rounded-full opacity-20 translate-y-1/2 translate-x-1/2 animate-float" style={{ animationDelay: '3s' }}></div>
       
       <div className="container mx-auto px-4 relative z-10">
-        <div className="max-w-2xl mx-auto text-center">
-          <h2 className="font-display font-bold text-4xl md:text-5xl text-white mb-6">
-            {t.registration.title}
-          </h2>
-          <p className="text-xl text-white/80 mb-8">
-            {t.registration.subtitle}
-          </p>
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="font-display font-bold text-4xl md:text-5xl text-white mb-6">
+              {t.registration.title}
+            </h2>
+            <p className="text-xl text-white/80">
+              {t.registration.subtitle}
+            </p>
+          </div>
 
-          <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20 mb-8">
-            <div className="flex flex-col md:flex-row items-center justify-between mb-6">
-              <div className="text-left mb-4 md:mb-0">
-                <div className="text-3xl font-bold text-white">{t.registration.price}</div>
-                <div className="text-white/60">{t.registration.platform}</div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {/* Registration Form */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
+              <div className="mb-6">
+                <div className="text-3xl font-bold text-white mb-2">{t.registration.price}</div>
+                <div className="text-white/60 text-sm">
+                  📅 {t.registration.duration}<br/>
+                  🕒 {t.registration.schedule}<br/>
+                  💻 {t.registration.format}
+                </div>
               </div>
-              <div className="text-white/60 text-sm">
-                📅 {t.registration.date}<br/>
-                🕒 {t.registration.time}
-              </div>
-            </div>
-            
-            <div className="space-y-4">
-              <input
-                type="text"
-                placeholder={t.registration.discountPlaceholder}
-                value={discountCode}
-                onChange={(e) => setDiscountCode(e.target.value)}
-                className="w-full px-4 py-3 rounded-xl bg-white/20 border border-white/30 text-white placeholder-white/60 focus:outline-none focus:ring-2 focus:ring-workshop-pink"
-              />
               
-              <button className="w-full bg-workshop-pink text-black py-4 rounded-xl font-bold text-lg hover:bg-workshop-pink/90 transition-all duration-300 transform hover:scale-105">
+              <button className="w-full bg-workshop-pink text-black py-4 rounded-xl font-bold text-lg hover:bg-workshop-pink/90 transition-all duration-300 transform hover:scale-105 mb-4">
                 {t.registration.cta}
               </button>
               
-              <p className="text-white/60 text-sm">
+              <p className="text-white/60 text-sm text-center">
                 {t.registration.note}
               </p>
-            </div>
-          </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
-            <div className="text-white/80">
-              <div className="text-2xl mb-2">💻</div>
-              <div className="text-sm">{t.registration.features.liveDemo}</div>
+              <div className="grid grid-cols-3 gap-4 mt-6 text-center">
+                <div className="text-white/80">
+                  <div className="text-2xl mb-2">💻</div>
+                  <div className="text-xs">{t.registration.features.liveClasses}</div>
+                </div>
+                <div className="text-white/80">
+                  <div className="text-2xl mb-2">📚</div>
+                  <div className="text-xs">{t.registration.features.portfolio}</div>
+                </div>
+                <div className="text-white/80">
+                  <div className="text-2xl mb-2">🤝</div>
+                  <div className="text-xs">{t.registration.features.interview}</div>
+                </div>
+              </div>
             </div>
-            <div className="text-white/80">
-              <div className="text-2xl mb-2">📚</div>
-              <div className="text-sm">{t.registration.features.resources}</div>
-            </div>
-            <div className="text-white/80">
-              <div className="text-2xl mb-2">🤝</div>
-              <div className="text-sm">{t.registration.features.qa}</div>
+
+            {/* Requirements */}
+            <div className="bg-white/10 backdrop-blur-sm rounded-3xl p-8 border border-white/20">
+              <h3 className="font-display font-bold text-2xl text-white mb-6">
+                {t.registration.requirements.title}
+              </h3>
+              
+              <ul className="space-y-4">
+                {t.registration.requirements.items.map((item, index) => (
+                  <li key={index} className="flex items-start text-white">
+                    <span className="w-2 h-2 bg-workshop-pink rounded-full mr-3 mt-2 flex-shrink-0"></span>
+                    <span className="text-sm">{item}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         </div>
