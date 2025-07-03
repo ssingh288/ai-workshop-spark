@@ -10,7 +10,7 @@ export const translations = {
     hero: {
       title: "AI-Powered Data Analytics Bootcamp",
       subtitle: "Master SQL, Python, Tableau & AI Tools in 8 Intensive Weeks",
-      description: "Transform your career with hands-on training in data analysis, visualization, and AI-powered development tools. Limited to 10 students per batch.",
+      description: "Transform your career with hands-on training in data analysis, visualization, and AI-powered development tools. 1 teacher for every 9 students.",
       dateTime: "8 Weeks | Mon-Fri 7-9 PM",
       price: "₹50,000",
       tools: {
@@ -85,10 +85,10 @@ export const translations = {
         },
         {
           week: "Week 7-8",
-          title: "AI Development Tools",
-          description: "Modern development with Lovable, Cursor, Supabase, and deployment on Vercel",
+          title: "Capstone Projects & AI Tools",
+          description: "Complete real-world projects using Lovable, Cursor, Supabase, and deploy on Vercel",
           icon: "🚀", 
-          topics: ["Lovable", "Cursor AI", "Supabase"]
+          topics: ["Project Work", "AI Tools Integration", "Portfolio Building"]
         }
       ]
     },
@@ -109,13 +109,13 @@ export const translations = {
     },
     registration: {
       title: "Apply for the Bootcamp",
-      subtitle: "Limited to 10 students per batch - Interview required for admission",
+      subtitle: "1 teacher for every 9 students - Interview required for admission",
       price: "₹50,000",
       duration: "8 Weeks Program",
       schedule: "Mon-Fri, 7-9 PM",
       format: "Live Online Classes",
       cta: "Apply Now - Interview Required",
-      note: "* All applicants must pass a screening interview",
+      note: "* All applicants must pass a screening interview and complete pre-work",
       features: {
         liveClasses: "Live Interactive Classes",
         portfolio: "Build Real Projects", 
@@ -124,8 +124,8 @@ export const translations = {
       requirements: {
         title: "Prerequisites",
         items: [
+          "Complete mandatory pre-work (Python + SQL basics)",
           "Basic computer skills required",
-          "No prior coding experience needed",
           "Commitment to attend all sessions",
           "Interview clearing is mandatory"
         ]
@@ -155,12 +155,20 @@ export const translations = {
       title: "Frequently Asked Questions",
       items: [
         {
-          question: "Do I need prior programming experience?",
-          answer: "No prior programming experience is required. We start from the basics and gradually build up to advanced concepts. However, basic computer literacy is expected."
+          question: "What is the pre-work requirement?",
+          answer: "Before joining the bootcamp, you must complete our mandatory pre-work covering Python and SQL basics. This ensures all students start with the same foundation level."
+        },
+        {
+          question: "What is the student-teacher ratio?",
+          answer: "We maintain a high-quality learning environment with 1 teacher for every 9 students, ensuring personalized attention and mentorship."
         },
         {
           question: "What is the interview process?",
           answer: "The interview is a 30-minute conversation to assess your commitment, learning goals, and ensure the program is a good fit for you. It's not a technical assessment."
+        },
+        {
+          question: "What happens in weeks 7-8?",
+          answer: "Weeks 7-8 are dedicated project weeks where you'll work on real-world capstone projects, integrate AI tools, and build a professional portfolio."
         },
         {
           question: "What if I miss a class?",
@@ -195,203 +203,6 @@ export const translations = {
     cta: {
       apply: "Apply Now",
       reserve: "Reserve Your Seat"
-    }
-  },
-  sv: {
-    nav: {
-      aboutCourse: "Om Kursen", 
-      curriculum: "Kursplan",
-      instructor: "Instruktör",
-      faq: "FAQ"
-    },
-    hero: {
-      title: "AI-Driven Dataanalys Bootcamp",
-      subtitle: "Behärska SQL, Python, Tableau & AI-verktyg på 8 intensiva veckor",
-      description: "Förändra din karriär med praktisk utbildning inom dataanalys, visualisering och AI-drivna utvecklingsverktyg. Begränsat till 10 studenter per grupp.",
-      dateTime: "8 Veckor | Mån-Fre 19-21",
-      price: "₹50,000",
-      tools: {
-        sql: "Behärska komplexa frågor och databasoptimering",
-        python: "Lär dig datamanipulation med pandas och analys", 
-        tableau: "Skapa fantastiska interaktiva dashboards",
-        ai: "Utnyttja Lovable, Cursor & Supabase för modern utveckling"
-      }
-    },
-    whatYouLearn: {
-      title: "Vad Du Kommer Att Behärska",
-      subtitle: "Omfattande kursplan designad för att göra dig jobbklar som AI-driven dataanalytiker",
-      duration: "intensiv träning",
-      audience: [
-        {
-          icon: "📊",
-          title: "Dataanalys",
-          description: "SQL-mästerskap, datarengöring och statistiska analystekniker"
-        },
-        {
-          icon: "🐍",
-          title: "Python-programmering", 
-          description: "Pandas, NumPy och datamanipulationsbibliotek"
-        },
-        {
-          icon: "📈",
-          title: "Datavisualisering",
-          description: "Tableau-dashboards och interaktiva visualiseringar"
-        },
-        {
-          icon: "🤖",
-          title: "AI-utveckling",
-          description: "Moderna verktyg som Lovable, Cursor och Supabase"
-        }
-      ],
-      learn: {
-        title: "Komplett Lärväg",
-        items: [
-          "Avancerade SQL-frågor och databasdesign",
-          "Python för dataanalys och automatisering",
-          "Professionell Tableau dashboard-skapande", 
-          "AI-driven utvecklingsarbetsflöde",
-          "Verkligt projektportfölj",
-          "Intervjuförberedelse och karriärvägledning"
-        ]
-      }
-    },
-    curriculum: {
-      title: "8-Veckors Kursplan",
-      subtitle: "Måndag till Fredag, 19-21 (Online)",
-      items: [
-        {
-          week: "Vecka 1-2",
-          title: "SQL Grunder & Avancerade Frågor",
-          description: "Behärska databasgrunder, komplexa joins, subfrågor och optimeringstekniker",
-          icon: "🗃️",
-          topics: ["Databasdesign", "Komplexa Joins", "Frågeoptimering"]
-        },
-        {
-          week: "Vecka 3-4",
-          title: "Python för Dataanalys", 
-          description: "Lär dig pandas, NumPy och datamanipulationstekniker med verkliga dataset",
-          icon: "🐍",
-          topics: ["Pandas", "NumPy", "Datarengöring"]
-        },
-        {
-          week: "Vecka 5-6",
-          title: "Tableau & Datavisualisering",
-          description: "Skapa interaktiva dashboards och övertygande databerättelser",
-          icon: "📊", 
-          topics: ["Dashboard Design", "Interaktiv Viz", "Berättande"]
-        },
-        {
-          week: "Vecka 7-8",
-          title: "AI Utvecklingsverktyg",
-          description: "Modern utveckling med Lovable, Cursor, Supabase och deployment på Vercel",
-          icon: "🚀",
-          topics: ["Lovable", "Cursor AI", "Supabase"]
-        }
-      ]
-    },
-    instructor: {
-      title: "Träffa Din Instruktör",
-      name: "Sandeep Singh", 
-      title_role: "Senior Dataanalytiker & AI-tränare",
-      experience: "10+ Års Branschexpertis",
-      students: "100+ Studenter Tränade",
-      locations: "Paris • Amsterdam • Barcelona",
-      bio: "Sandeep har över ett decennium av praktisk erfarenhet inom dataanalys och har framgångsrikt tränat mer än 100 studenter över hela Europa. Hans expertis sträcker sig från traditionell dataanalys till banbrytande AI-drivna utvecklingsverktyg.",
-      achievements: [
-        "10+ år inom dataanalysbranschen",
-        "Tränat 100+ yrkesverksamma över hela Europa",
-        "Expert på SQL, Python och Tableau", 
-        "Specialiserad på AI-drivna utvecklingsverktyg"
-      ]
-    },
-    registration: {
-      title: "Ansök till Bootcampen",
-      subtitle: "Begränsat till 10 studenter per grupp - Intervju krävs för antagning",
-      price: "₹50,000",
-      duration: "8 Veckors Program",
-      schedule: "Mån-Fre, 19-21",
-      format: "Live Online Klasser",
-      cta: "Ansök Nu - Intervju Krävs",
-      note: "* Alla sökande måste klara en intervju",
-      features: {
-        liveClasses: "Live Interaktiva Klasser",
-        portfolio: "Bygg Riktiga Projekt",
-        interview: "Intervjuförberedelse"
-      },
-      requirements: {
-        title: "Förkunskapskrav",
-        items: [
-          "Grundläggande datorkunskaper krävs",
-          "Ingen tidigare kodningsexpertis behövs", 
-          "Engagemang att delta i alla sessioner",
-          "Att klara intervjun är obligatoriskt"
-        ]
-      }
-    },
-    testimonials: {
-      title: "Studentframgångsberättelser",
-      items: [
-        {
-          text: "Kursplanen var perfekt strukturerad. Jag fick en dataanalytikertjänst inom 2 månader efter att ha avslutat bootcampen!",
-          author: "Priya Sharma, Dataanalytiker på TechCorp",
-          icon: "🎯"
-        },
-        {
-          text: "Sandeeps undervisningsstil gjorde komplexa SQL-koncept så lätta att förstå. De praktiska projekten var fantastiska!",
-          author: "Rahul Gupta, Business Intelligence Developer",
-          icon: "💡"
-        },
-        {
-          text: "Från noll kodningskunskap till att bygga mina egna datadashboards - denna bootcamp förändrade min karriärbana helt.",
-          author: "Anjali Patel, Marketing Analyst", 
-          icon: "🚀"
-        }
-      ]
-    },
-    faq: {
-      title: "Vanliga Frågor",
-      items: [
-        {
-          question: "Behöver jag tidigare programmeringserfarenhet?",
-          answer: "Ingen tidigare programmeringserfarenhet krävs. Vi börjar från grunderna och bygger gradvis upp till avancerade koncept. Dock förväntas grundläggande datorkunskaper."
-        },
-        {
-          question: "Vad är intervjuprocessen?",
-          answer: "Intervjun är ett 30-minuters samtal för att bedöma ditt engagemang, lärandemål och säkerställa att programmet passar dig. Det är inte en teknisk bedömning."
-        },
-        {
-          question: "Vad händer om jag missar en klass?",
-          answer: "Alla sessioner spelas in och är tillgängliga för granskning. Dock är konsekvent närvaro avgörande för framgång, och mer än 3 frånvaro kan påverka dina framsteg."
-        },
-        {
-          question: "Får jag hjälp med jobbplacering?",
-          answer: "Ja, vi tillhandahåller intervjuförberedelse, CV-granskning och karriärvägledning. Även om vi inte garanterar jobbplacering, är vår kursplan designad för att göra dig jobbklar."
-        },
-        {
-          question: "Vilka verktyg behöver jag?",
-          answer: "Du behöver en dator med internetanslutning. Alla mjukvaruverktyg (inklusive Tableau) kommer att tillhandahållas med utbildningslicenser under kursen."
-        },
-        {
-          question: "Finns det ett certifikat vid slutförande?",
-          answer: "Ja, du får ett slutförandecertifikat tillsammans med en portfölj av projekt att visa för potentiella arbetsgivare."
-        }
-      ]
-    },
-    footer: {
-      description: "Förändra din karriär med AI-drivna dataanalyskunskaper på bara 8 veckor.",
-      contact: {
-        title: "Kontaktinfo",
-        email: "hello@aianalyticsbootcamp.com", 
-        support: "För antagning: +91-9876543210"
-      },
-      follow: "Följ Oss",
-      copyright: "© 2024 AI Analytics Bootcamp. Alla rättigheter förbehållna.",
-      privacy: "Integritetspolicy",
-      terms: "Användarvillkor"
-    },
-    cta: {
-      apply: "Ansök Nu",
-      reserve: "Reservera Din Plats"
     }
   }
 };
