@@ -1,4 +1,3 @@
-
 export const translations = {
   en: {
     nav: {
@@ -168,7 +167,7 @@ export const translations = {
       title: "Student Success Stories",
       items: [
         {
-          text: "The curriculum was perfectly structured. I landed a data analyst role within 2 months of completing the bootcamp!",
+          text: "The SQL curriculum was perfectly structured. I landed a data analyst role within 2 months of completing the course!",
           author: "Priya Sharma, Data Analyst at TechCorp",
           icon: "🎯"
         },
@@ -178,7 +177,7 @@ export const translations = {
           icon: "💡"
         },
         {
-          text: "From zero coding knowledge to building my own data dashboards - this bootcamp changed my career trajectory completely.",
+          text: "From zero SQL knowledge to building complex queries - this course changed my career trajectory completely.",
           author: "Anjali Patel, Marketing Analyst",
           icon: "🚀"
         }
@@ -189,7 +188,7 @@ export const translations = {
       items: [
         {
           question: "What is the pre-work requirement?",
-          answer: "Before joining the bootcamp, you must complete our mandatory pre-work covering Python and SQL basics. This ensures all students start with the same foundation level."
+          answer: "Before joining the course, you must complete our mandatory pre-work covering Python and SQL basics. This ensures all students start with the same foundation level."
         },
         {
           question: "What is the student-teacher ratio?",
@@ -200,12 +199,12 @@ export const translations = {
           answer: "The interview is a 30-minute conversation to assess your commitment, learning goals, and ensure the program is a good fit for you. It's not a technical assessment."
         },
         {
-          question: "What happens in weeks 7-8?",
-          answer: "Weeks 7-8 are dedicated project weeks where you'll work on real-world capstone projects, integrate AI tools, and build a professional portfolio."
+          question: "What happens in Day 9-10?",
+          answer: "Days 9-10 are dedicated project days where you'll work on real-world SQL projects, integrate AI tools, and build a professional portfolio."
         },
         {
           question: "What if I miss a class?",
-          answer: "All sessions are recorded and available for review. However, consistent attendance is crucial for success, and more than 3 absences may affect your progress."
+          answer: "All sessions are recorded and available for review. However, consistent attendance is crucial for success, and more than 2 absences may affect your progress."
         },
         {
           question: "Will I get job placement assistance?",
@@ -213,11 +212,11 @@ export const translations = {
         },
         {
           question: "What tools do I need?",
-          answer: "You'll need a computer with internet connection. All software tools (including Tableau) will be provided with educational licenses during the course."
+          answer: "You'll need a computer with internet connection. All software tools (including database access) will be provided during the course."
         },
         {
           question: "Is there a certificate upon completion?",
-          answer: "Yes, you'll receive a certificate of completion along with a portfolio of projects to showcase to potential employers."
+          answer: "Yes, you'll receive a certificate of completion along with a portfolio of SQL projects to showcase to potential employers."
         }
       ]
     },
