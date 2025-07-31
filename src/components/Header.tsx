@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from './ui/tabs';
-import { translations } from '../utils/translations';
+import { translations } from '../utils/translations-new';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ const Header = () => {
     <header className="fixed top-0 w-full z-50 bg-black/10 backdrop-blur-md border-b border-white/10">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="font-display font-bold text-xl text-white">
-          ShlokAI.com
+          BonjourSQL.com
         </div>
         
         <Tabs defaultValue="workshops" className="hidden md:block">

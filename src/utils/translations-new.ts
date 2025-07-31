@@ -1,4 +1,4 @@
-// Simplified translations for debugging
+// BonjourSQL - Inspired by NamasteSQL approach to SQL mastery
 export const translations = {
   en: {
     nav: {
@@ -10,16 +10,16 @@ export const translations = {
       faq: "FAQ"
     },
     hero: {
-      title: "10-Day Intensive SQL Mastery Course",
-      subtitle: "Master SQL from Basics to Advanced + AI-Powered Data Analytics",
-      description: "Transform your career with intensive SQL training and AI-powered data analysis. 1 teacher for every 9 students. Master complex queries, database optimization, and modern data tools.",
+      title: "Bonjour SQL Mastery Bootcamp",
+      subtitle: "Master SQL from Zero to Hero + AI-Powered Analytics",
+      description: "Transform your career with intensive SQL training inspired by proven methods. Learn to think in SQL, break complex problems into simple steps, and become a SQL expert. 1 teacher for every 9 students.",
       dateTime: "10 Days Intensive | Mon-Fri 7-9 PM",
       price: "₹50,000",
       tools: {
-        sql: "Master complex SQL queries and database optimization",
-        python: "Learn data manipulation with pandas and analysis",
-        tableau: "Create stunning interactive dashboards",
-        ai: "Leverage Lovable, Cursor & Supabase for modern development"
+        sql: "Master SQL from basics to advanced optimization - Learn to think like SQL",
+        python: "Learn data manipulation with pandas and advanced analytics",
+        tableau: "Create stunning dashboards and interactive visualizations",
+        ai: "Leverage modern AI tools: Lovable, Cursor & Supabase"
       }
     },
     shortCourses: {
@@ -47,45 +47,45 @@ export const translations = {
       ]
     },
     whatYouLearn: {
-      title: "What You'll Master",
-      subtitle: "Intensive SQL-focused curriculum with AI-powered data analytics",
+      title: "Why Choose BonjourSQL",
+      subtitle: "Master SQL thinking and become an expert with our proven methodology",
       duration: "intensive training",
       audience: [
         {
           icon: "🗃️",
-          title: "SQL Mastery",
-          description: "From basics to advanced queries, optimization, and database design"
+          title: "SQL Expertise",
+          description: "In the world of Data Analytics, SQL is like your bread and butter. Learn to think like SQL and break complex problems into simple steps."
         },
         {
-          icon: "📊", 
-          title: "Data Analysis",
-          description: "Statistical analysis, data cleaning, and advanced analytics"
+          icon: "🧠", 
+          title: "Think SQL Mindset",
+          description: "Develop the critical thinking skills to approach any SQL problem with confidence and systematic methodology."
         },
         {
-          icon: "📈",
-          title: "Data Visualization", 
-          description: "Tableau dashboards and interactive visualizations"
+          icon: "📊",
+          title: "Hand-Picked Problems", 
+          description: "Practice with carefully curated coding questions from various topics and skill levels for interview preparation."
         },
         {
-          icon: "🤖",
-          title: "AI-Powered Analytics",
-          description: "Modern tools like Lovable, Cursor, and Supabase"
+          icon: "🎥",
+          title: "Video Explanations",
+          description: "In-depth video explanations for each problem with multiple approaches and step-by-step solutions."
         }
       ],
       learn: {
-        title: "Complete Learning Path",
+        title: "Complete Learning Journey",
         items: [
-          "Intensive SQL training from basics to expert level",
-          "Advanced queries, joins, and database optimization", 
-          "Python integration for data analysis and automation",
-          "Professional Tableau dashboard creation",
-          "AI-powered development workflow",
-          "Real-world project portfolio building"
+          "SQL from Zero to Hero - Complete mastery",
+          "Learn to think in SQL with systematic problem-solving", 
+          "Advanced queries, joins, and performance optimization",
+          "Real-world projects and hands-on practice",
+          "Data warehousing concepts and best practices",
+          "Integration with Python and modern AI tools"
         ]
       }
     },
     curriculum: {
-      title: "10-Day Intensive SQL Curriculum",
+      title: "BonjourSQL 10-Day Intensive Curriculum",
       subtitle: "Monday to Friday, 7 PM - 9 PM (Online)",
       items: [
         {
@@ -128,20 +128,20 @@ export const translations = {
     instructor: {
       title: "Meet Your Instructor",
       name: "Sandeep Singh",
-      title_role: "Senior Data Analyst & AI Trainer",
-      experience: "10+ Years Industry Experience",
-      students: "100+ Students Trained",
+      title_role: "SQL Champion & Senior Data Engineer",
+      experience: "13+ Years Industry Experience",
+      students: "100+ Students Trained Globally",
       locations: "Paris • Amsterdam • Barcelona",
-      bio: "Sandeep brings over a decade of hands-on experience in data analysis and has successfully trained more than 100 students across Europe. His expertise spans from traditional data analysis to cutting-edge AI-powered development tools.",
+      bio: "Sandeep is a SQL Champion and Senior Data Engineer with over 13+ years of experience in data analytics and engineering. Inspired by the proven methodologies of SQL education, he brings systematic thinking and real-world expertise to help students master SQL from zero to hero.",
       achievements: [
-        "10+ years in data analytics industry",
-        "Trained 100+ professionals across Europe", 
-        "Expert in SQL, Python, and Tableau",
-        "Specialized in AI-powered development tools"
+        "13+ years in data analytics and engineering",
+        "Trained 100+ professionals globally with systematic SQL methodology", 
+        "SQL Champion with expertise in thinking SQL approach",
+        "Specialized in breaking complex problems into simple steps"
       ]
     },
     registration: {
-      title: "Apply for SQL Mastery Course",
+      title: "Join BonjourSQL Mastery Bootcamp",
       subtitle: "1 teacher for every 9 students - Interview required for admission",
       price: "₹50,000",
       duration: "10 Days Intensive Program",
@@ -165,21 +165,21 @@ export const translations = {
       }
     },
     testimonials: {
-      title: "Student Success Stories",
+      title: "What Our Students Say",
       items: [
         {
-          text: "The SQL curriculum was perfectly structured. I landed a data analyst role within 2 months of completing the course!",
-          author: "Priya Sharma, Data Analyst at TechCorp",
+          text: "Teaching method is really good. I went from Beginner to Advanced SQL through this course. Highly recommended!",
+          author: "Vaibhav Singh, Data Analyst",
           icon: "🎯"
         },
         {
-          text: "Sandeep's teaching style made complex SQL concepts so easy to understand. The hands-on projects were amazing!",
+          text: "The systematic approach to SQL learning helped me think like SQL. Now I can break any complex problem into simple steps.",
           author: "Rahul Gupta, Business Intelligence Developer", 
           icon: "💡"
         },
         {
-          text: "From zero SQL knowledge to building complex queries - this course changed my career trajectory completely.",
-          author: "Anjali Patel, Marketing Analyst",
+          text: "From zero SQL knowledge to being confident in interviews - BonjourSQL changed my career trajectory completely.",
+          author: "Priya Sharma, Marketing Analyst",
           icon: "🚀"
         }
       ]
@@ -222,14 +222,14 @@ export const translations = {
       ]
     },
     footer: {
-      description: "Master SQL and transform your career with intensive training and AI-powered analytics.",
+      description: "Master SQL with BonjourSQL - Transform your career with systematic SQL thinking and proven methodologies.",
       contact: {
         title: "Contact Info",
-        email: "hello@shlokai.com",
+        email: "hello@bonjoursql.com",
         support: "For admissions: +91-9876543210"
       },
       follow: "Follow Us",
-      copyright: "© 2024 ShlokAI.com. All rights reserved.",
+      copyright: "© 2024 BonjourSQL.com. All rights reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service"
     },
