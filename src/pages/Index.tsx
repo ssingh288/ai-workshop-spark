@@ -14,15 +14,15 @@ const Index = () => {
   return (
     <div className="font-sans">
       <Header />
-      <HeroSection language="en" />
-      <WhatYouLearnSection language="en" />
-      <AgendaSection language="en" />
-      <InstructorSection language="en" />
+      <HeroSection />
+      <WhatYouLearnSection />
+      <AgendaSection />
+      <InstructorSection />
       <ShortCoursesSection />
-      <RegistrationSection language="en" />
-      <TestimonialsSection language="en" />
-      <FAQSection language="en" />
-      <Footer language="en" />
+      <RegistrationSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <Footer />
     </div>
   );
 };

@@ -1,12 +1,8 @@
 
 import { translations } from '../utils/translations';
 
-interface WhatYouLearnSectionProps {
-  language: 'en' | 'sv';
-}
-
-const WhatYouLearnSection = ({ language }: WhatYouLearnSectionProps) => {
-  const t = translations[language];
+const WhatYouLearnSection = () => {
+  const t = translations.en;
 
   return (
     <section id="what-you-learn" className="py-20 bg-white relative overflow-hidden">

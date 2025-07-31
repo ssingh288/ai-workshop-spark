@@ -2,12 +2,8 @@
 import AnimatedBlob from './AnimatedBlob';
 import { translations } from '../utils/translations';
 
-interface HeroSectionProps {
-  language: 'en' | 'sv';
-}
-
-const HeroSection = ({ language }: HeroSectionProps) => {
-  const t = translations[language];
+const HeroSection = () => {
+  const t = translations.en;
 
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-black via-gray-900 to-black">

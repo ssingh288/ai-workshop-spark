@@ -1,12 +1,8 @@
 
 import { translations } from '../utils/translations';
 
-interface TestimonialsSectionProps {
-  language: 'en' | 'sv';
-}
-
-const TestimonialsSection = ({ language }: TestimonialsSectionProps) => {
-  const t = translations[language];
+const TestimonialsSection = () => {
+  const t = translations.en;
 
   return (
     <section className="py-20 bg-white">

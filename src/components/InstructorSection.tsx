@@ -1,12 +1,8 @@
 
 import { translations } from '../utils/translations';
 
-interface InstructorSectionProps {
-  language: 'en' | 'sv';
-}
-
-const InstructorSection = ({ language }: InstructorSectionProps) => {
-  const t = translations[language];
+const InstructorSection = () => {
+  const t = translations.en;
 
   return (
     <section id="instructor" className="py-20 bg-white relative overflow-hidden">

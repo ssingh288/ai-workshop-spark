@@ -2,12 +2,8 @@
 import { Github, Instagram, Linkedin } from 'lucide-react';
 import { translations } from '../utils/translations';
 
-interface FooterProps {
-  language: 'en' | 'sv';
-}
-
-const Footer = ({ language }: FooterProps) => {
-  const t = translations[language];
+const Footer = () => {
+  const t = translations.en;
 
   return (
     <footer className="bg-black text-white py-12">

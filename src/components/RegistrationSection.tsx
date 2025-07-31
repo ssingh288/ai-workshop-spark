@@ -2,12 +2,8 @@
 import { useState } from 'react';
 import { translations } from '../utils/translations';
 
-interface RegistrationSectionProps {
-  language: 'en' | 'sv';
-}
-
-const RegistrationSection = ({ language }: RegistrationSectionProps) => {
-  const t = translations[language];
+const RegistrationSection = () => {
+  const t = translations.en;
 
   return (
     <section className="py-20 bg-gradient-to-br from-black via-gray-900 to-black relative overflow-hidden">

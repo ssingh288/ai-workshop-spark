@@ -3,13 +3,9 @@ import { useState } from 'react';
 import { translations } from '../utils/translations';
 import { ChevronDown } from 'lucide-react';
 
-interface FAQSectionProps {
-  language: 'en' | 'sv';
-}
-
-const FAQSection = ({ language }: FAQSectionProps) => {
+const FAQSection = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
-  const t = translations[language];
+  const t = translations.en;
 
   const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);

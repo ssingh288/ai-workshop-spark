@@ -1,12 +1,8 @@
 
 import { translations } from '../utils/translations';
 
-interface AgendaSectionProps {
-  language: 'en' | 'sv';
-}
-
-const AgendaSection = ({ language }: AgendaSectionProps) => {
-  const t = translations[language];
+const AgendaSection = () => {
+  const t = translations.en;
 
   return (
     <section id="curriculum" className="py-20 bg-gray-50">
