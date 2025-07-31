@@ -1,8 +1,12 @@
 
 import AnimatedBlob from './AnimatedBlob';
-import { translations } from '../utils/translations';
+import { translations } from '../utils/translations-new';
 
 const HeroSection = () => {
+  console.log('=== TESTING WITH NEW TRANSLATIONS FILE ===');
+  console.log('translations:', translations);
+  console.log('translations.en:', translations.en);
+  
   const t = translations.en;
 
   return (
@@ -36,7 +40,7 @@ const HeroSection = () => {
       <div className="relative z-10 container mx-auto px-4 text-center">
         <div className="animate-slide-up">
           <h1 className="font-display font-bold text-5xl md:text-7xl lg:text-8xl text-white mb-6 leading-tight">
-            AI <span className="text-workshop-pink">Analytics</span> Bootcamp
+            {t.hero.title}
           </h1>
           
           <h2 className="font-sans text-xl md:text-2xl text-white/80 mb-4 max-w-3xl mx-auto">
