@@ -1,5 +1,4 @@
 
-import { useState } from 'react';
 import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import WhatYouLearnSection from '../components/WhatYouLearnSection';
@@ -9,21 +8,21 @@ import RegistrationSection from '../components/RegistrationSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import FAQSection from '../components/FAQSection';
 import Footer from '../components/Footer';
+import ShortCoursesSection from '../components/ShortCoursesSection';
 
 const Index = () => {
-  const [language, setLanguage] = useState<'en' | 'sv'>('en');
-
   return (
     <div className="font-sans">
-      <Header language={language} onLanguageChange={setLanguage} />
-      <HeroSection language={language} />
-      <WhatYouLearnSection language={language} />
-      <AgendaSection language={language} />
-      <InstructorSection language={language} />
-      <RegistrationSection language={language} />
-      <TestimonialsSection language={language} />
-      <FAQSection language={language} />
-      <Footer language={language} />
+      <Header />
+      <HeroSection language="en" />
+      <WhatYouLearnSection language="en" />
+      <AgendaSection language="en" />
+      <InstructorSection language="en" />
+      <ShortCoursesSection />
+      <RegistrationSection language="en" />
+      <TestimonialsSection language="en" />
+      <FAQSection language="en" />
+      <Footer language="en" />
     </div>
   );
 };

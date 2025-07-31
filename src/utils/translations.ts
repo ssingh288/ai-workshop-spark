@@ -2,38 +2,64 @@
 export const translations = {
   en: {
     nav: {
+      workshops: "Upcoming Workshops",
+      shortCourses: "Short Courses",
       aboutCourse: "About Course",
       curriculum: "Curriculum", 
       instructor: "Instructor",
       faq: "FAQ"
     },
     hero: {
-      title: "AI-Powered Data Analytics Bootcamp",
-      subtitle: "Master SQL, Python, Tableau & AI Tools in 8 Intensive Weeks",
-      description: "Transform your career with hands-on training in data analysis, visualization, and AI-powered development tools. 1 teacher for every 9 students.",
-      dateTime: "8 Weeks | Mon-Fri 7-9 PM",
+      title: "10-Day Intensive SQL Mastery Course",
+      subtitle: "Master SQL from Basics to Advanced + AI-Powered Data Analytics",
+      description: "Transform your career with intensive SQL training and AI-powered data analysis. 1 teacher for every 9 students. Master complex queries, database optimization, and modern data tools.",
+      dateTime: "10 Days Intensive | Mon-Fri 7-9 PM",
       price: "₹50,000",
       tools: {
-        sql: "Master complex queries and database optimization",
+        sql: "Master complex SQL queries and database optimization",
         python: "Learn data manipulation with pandas and analysis",
         tableau: "Create stunning interactive dashboards",
         ai: "Leverage Lovable, Cursor & Supabase for modern development"
       }
     },
+    shortCourses: {
+      title: "Upcoming Short Courses",
+      subtitle: "Specialized training programs coming soon",
+      courses: [
+        {
+          title: "Python with AI",
+          status: "Upcoming",
+          description: "Master Python programming with AI integration",
+          duration: "5 Days"
+        },
+        {
+          title: "Tableau Mastery",
+          status: "Upcoming", 
+          description: "Create professional data visualizations",
+          duration: "3 Days"
+        },
+        {
+          title: "Agentic AI",
+          status: "Upcoming",
+          description: "Build autonomous AI agents and workflows",
+          duration: "7 Days"
+        }
+      ]
+    },
     whatYouLearn: {
       title: "What You'll Master",
-      subtitle: "Comprehensive curriculum designed to make you job-ready as an AI-powered data analyst",
+      subtitle: "Intensive SQL-focused curriculum with AI-powered data analytics",
       duration: "intensive training",
       audience: [
         {
-          icon: "📊",
-          title: "Data Analysis",
-          description: "SQL mastery, data cleaning, and statistical analysis techniques"
+          icon: "🗃️",
+          title: "SQL Mastery",
+          description: "From basics to advanced queries, optimization, and database design"
         },
         {
-          icon: "🐍", 
-          title: "Python Programming",
-          description: "Pandas, NumPy, and data manipulation libraries"
+          icon: "📊", 
+          title: "Data Analysis",
+          description: "Statistical analysis, data cleaning, and advanced analytics"
         },
         {
           icon: "📈",
@@ -42,53 +68,60 @@ export const translations = {
         },
         {
           icon: "🤖",
-          title: "AI Development",
+          title: "AI-Powered Analytics",
           description: "Modern tools like Lovable, Cursor, and Supabase"
         }
       ],
       learn: {
         title: "Complete Learning Path",
         items: [
-          "Advanced SQL queries and database design",
-          "Python for data analysis and automation", 
+          "Intensive SQL training from basics to expert level",
+          "Advanced queries, joins, and database optimization", 
+          "Python integration for data analysis and automation",
           "Professional Tableau dashboard creation",
           "AI-powered development workflow",
-          "Real-world project portfolio",
-          "Interview preparation and career guidance"
+          "Real-world project portfolio building"
         ]
       }
     },
     curriculum: {
-      title: "8-Week Curriculum",
+      title: "10-Day Intensive SQL Curriculum",
       subtitle: "Monday to Friday, 7 PM - 9 PM (Online)",
       items: [
         {
-          week: "Week 1-2",
-          title: "SQL Fundamentals & Advanced Queries",
-          description: "Master database fundamentals, complex joins, subqueries, and optimization techniques",
+          week: "Day 1-2",
+          title: "SQL Fundamentals & Database Basics",
+          description: "Master database concepts, basic queries, and table operations",
           icon: "🗃️",
-          topics: ["Database Design", "Complex Joins", "Query Optimization"]
+          topics: ["Database Design", "Basic Queries", "Table Operations"]
         },
         {
-          week: "Week 3-4", 
-          title: "Python for Data Analysis",
-          description: "Learn pandas, NumPy, and data manipulation techniques with real datasets",
-          icon: "🐍",
-          topics: ["Pandas", "NumPy", "Data Cleaning"]
+          week: "Day 3-4", 
+          title: "Advanced SQL & Complex Joins",
+          description: "Learn complex joins, subqueries, and advanced filtering techniques",
+          icon: "🔗",
+          topics: ["Complex Joins", "Subqueries", "Advanced Filtering"]
         },
         {
-          week: "Week 5-6",
-          title: "Tableau & Data Visualization",
-          description: "Create interactive dashboards and compelling data stories",
-          icon: "📊",
-          topics: ["Dashboard Design", "Interactive Viz", "Storytelling"]
+          week: "Day 5-6",
+          title: "Query Optimization & Performance",
+          description: "Master indexing, query optimization, and performance tuning",
+          icon: "⚡",
+          topics: ["Indexing", "Query Optimization", "Performance Tuning"]
         },
         {
-          week: "Week 7-8",
-          title: "Capstone Projects & AI Tools",
-          description: "Complete real-world projects using Lovable, Cursor, Supabase, and deploy on Vercel",
+          week: "Day 7-8",
+          title: "Advanced Analytics & Functions",
+          description: "Window functions, CTEs, stored procedures, and analytical queries",
+          icon: "📊", 
+          topics: ["Window Functions", "CTEs", "Analytical Queries"]
+        },
+        {
+          week: "Day 9-10",
+          title: "Real Projects & AI Integration",
+          description: "Complete real-world SQL projects and integrate with AI tools",
           icon: "🚀", 
-          topics: ["Project Work", "AI Tools Integration", "Portfolio Building"]
+          topics: ["Real Projects", "AI Integration", "Portfolio Building"]
         }
       ]
     },
@@ -108,13 +141,13 @@ export const translations = {
       ]
     },
     registration: {
-      title: "Apply for the Bootcamp",
+      title: "Apply for SQL Mastery Course",
       subtitle: "1 teacher for every 9 students - Interview required for admission",
       price: "₹50,000",
-      duration: "8 Weeks Program",
+      duration: "10 Days Intensive Program",
       schedule: "Mon-Fri, 7-9 PM",
       format: "Live Online Classes",
-      cta: "Apply Now - Interview Required",
+      cta: "Apply Now - Pay with Razorpay",
       note: "* All applicants must pass a screening interview and complete pre-work",
       features: {
         liveClasses: "Live Interactive Classes",
@@ -189,14 +222,14 @@ export const translations = {
       ]
     },
     footer: {
-      description: "Transform your career with AI-powered data analytics skills in just 8 weeks.",
+      description: "Master SQL and transform your career with intensive training and AI-powered analytics.",
       contact: {
         title: "Contact Info",
-        email: "hello@aianalyticsbootcamp.com",
+        email: "hello@shlokai.com",
         support: "For admissions: +91-9876543210"
       },
       follow: "Follow Us",
-      copyright: "© 2024 AI Analytics Bootcamp. All rights reserved.",
+      copyright: "© 2024 ShlokAI.com. All rights reserved.",
       privacy: "Privacy Policy",
       terms: "Terms of Service"
     },

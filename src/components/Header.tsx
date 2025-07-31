@@ -1,42 +1,46 @@
 
 import { useState } from 'react';
-import LanguageToggle from './LanguageToggle';
+import { Tabs, TabsList, TabsTrigger, TabsContent } from './ui/tabs';
 import { translations } from '../utils/translations';
 
-interface HeaderProps {
-  language: 'en' | 'sv';
-  onLanguageChange: (lang: 'en' | 'sv') => void;
-}
-
-const Header = ({ language, onLanguageChange }: HeaderProps) => {
+const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const t = translations[language];
+  const t = translations.en;
+
+  const handleApplyClick = () => {
+    // Redirect to Razorpay payment gateway
+    window.open('https://rzp.io/l/your-payment-link', '_blank');
+  };
 
   return (
     <header className="fixed top-0 w-full z-50 bg-black/10 backdrop-blur-md border-b border-white/10">
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="font-display font-bold text-xl text-white">
-          AI Analytics Bootcamp
+          ShlokAI.com
         </div>
         
-        <nav className="hidden md:flex items-center space-x-8">
-          <a href="#about-course" className="text-white/80 hover:text-white transition-colors">
-            {t.nav.aboutCourse}
-          </a>
-          <a href="#curriculum" className="text-white/80 hover:text-white transition-colors">
-            {t.nav.curriculum}
-          </a>
-          <a href="#instructor" className="text-white/80 hover:text-white transition-colors">
-            {t.nav.instructor}
-          </a>
-          <a href="#faq" className="text-white/80 hover:text-white transition-colors">
-            {t.nav.faq}
-          </a>
-        </nav>
+        <Tabs defaultValue="workshops" className="hidden md:block">
+          <TabsList className="bg-black/20 border border-white/10">
+            <TabsTrigger value="workshops" className="text-white/80 data-[state=active]:text-white data-[state=active]:bg-white/10">
+              {t.nav.workshops}
+            </TabsTrigger>
+            <TabsTrigger value="shortcourses" className="text-white/80 data-[state=active]:text-white data-[state=active]:bg-white/10">
+              {t.nav.shortCourses}
+            </TabsTrigger>
+            <TabsTrigger value="about" className="text-white/80 data-[state=active]:text-white data-[state=active]:bg-white/10">
+              {t.nav.aboutCourse}
+            </TabsTrigger>
+            <TabsTrigger value="faq" className="text-white/80 data-[state=active]:text-white data-[state=active]:bg-white/10">
+              {t.nav.faq}
+            </TabsTrigger>
+          </TabsList>
+        </Tabs>
 
         <div className="flex items-center space-x-4">
-          <LanguageToggle language={language} onLanguageChange={onLanguageChange} />
-          <button className="bg-workshop-pink text-black px-6 py-2 rounded-full font-semibold hover:bg-workshop-pink/90 transition-all duration-300 animate-pulse-glow">
+          <button 
+            onClick={handleApplyClick}
+            className="bg-workshop-pink text-black px-6 py-2 rounded-full font-semibold hover:bg-workshop-pink/90 transition-all duration-300 animate-pulse-glow"
+          >
             {t.cta.apply}
           </button>
         </div>
